@@ -86,7 +86,6 @@ namespace PracticaAdo.Repositories
             await this.cn.CloseAsync();
             return lista;
         }
-
         public async Task<ClienteYPedido> GetClienteAsync(string nombreCliente)
         {
             string sql = "SP_CLIENTEEMPRESA";
